@@ -25,8 +25,8 @@ def add_ibname_to_1C_window(hwnd, more) -> None:
     commandline = process.cmdline()
 
     # Ищем имя базы.
-    iter = (x for x in commandline if x.startswith('/IBName'))
-    ib_name = next(iter, '!None')
+    iterator = (x for x in commandline if x.startswith('/IBName'))
+    ib_name = next(iterator, '!None')
     if ib_name != '!None':
         ib_name = ib_name.replace('/IBName', '')
     else:
