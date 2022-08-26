@@ -17,7 +17,7 @@ def add_ibname_to_1C_window(hwnd, more) -> None:
     if 'V8TopLevelFrame' not in class_name:
         return
 
-    window_text: str = win32gui.GetWindowText(hwnd)
+    window_text = win32gui.GetWindowText(hwnd)
 
     # Находим процесс, и по этому процессу ищем командную строку.
     process_id = win32process.GetWindowThreadProcessId(hwnd)[1]
