@@ -30,7 +30,7 @@ def add_ibname_to_1C_window(hwnd, more) -> None:
         return
 
     # Устанавливаем новое имя.
-    if not window_text.startswith(ib_name):
+    if not window_text.startswith(ib_name + ' - '):
         win32gui.SetWindowText(hwnd, f'{ib_name} - {window_text}')
 
 
