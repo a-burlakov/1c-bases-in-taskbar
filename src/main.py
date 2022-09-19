@@ -12,10 +12,18 @@ def add_ibname_to_1C_window(hwnd, more) -> None:
     :param hwnd: Открытое окно Windows
     '''
 
-    # Берем только окна, связанные с 1С.
-    class_name = win32gui.GetClassName(hwnd)
+
+    # Берём класс по хендлеру в попытке, чтобы не было исключений для
+    # редких окон с непредсказуемым поведением.
+    try:
+        class_name = win32gui.GetClassName(hwnd)
+    except:
+        return
+
     if 'V8TopLevelFrame' not in class_name:
         return
+
+    # Берем только окна, связанные с 1С.
 
     window_text = win32gui.GetWindowText(hwnd)
 
