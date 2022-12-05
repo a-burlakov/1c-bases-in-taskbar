@@ -10,4 +10,5 @@
 ![Стало](https://github.com/a-burlakov/1C-bases-in-taskbar/raw/main/pics/after.png)
 
 
+
 Статья на [Infostart](https://infostart.ru/1c/articles/1714965/) 
