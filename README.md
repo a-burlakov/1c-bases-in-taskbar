@@ -1,12 +1,12 @@
-Скрипт, который помещает имена баз 1С в заголовки окон в Windows, чтобы они лучше читались в таскбаре.
+A script that puts names of 1C databases in the window titles in Windows so that they are better to read in the taskbar.
 
-Было:
+Before:
 
 ![Было](https://github.com/a-burlakov/1C-bases-in-taskbar/raw/main/pics/before.png)
 
-Стало:
+After:
 
 ![Стало](https://github.com/a-burlakov/1C-bases-in-taskbar/raw/main/pics/after.png)
 
 
-Статья на [Infostart](https://infostart.ru/1c/articles/1714965/) 
+Article at [Infostart](https://infostart.ru/1c/articles/1714965/) (rus).
