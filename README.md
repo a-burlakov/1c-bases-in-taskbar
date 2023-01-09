@@ -1,4 +1,4 @@
-A script that puts names of 1C databases in the window titles in Windows so that they are better to read in the taskbar.
+Script that puts names of 1C databases in the window titles in Windows so that they are better to read in the taskbar.
 
 Before:
 
